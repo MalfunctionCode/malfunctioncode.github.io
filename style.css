@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+body{
+    overflow:hidden;
+    margin: 0;
+
+}
+video{
+    min-width:100vw;
+    min-height:100vh;
+    filter:brightness(30%);
+    position:fixed;
+    right:0;
+    bottom:0;
+}
+h1{
+    color: #000000;
+    font-family:'Assistant', sans-serif;
+    text-decoration:none;
+    transition: text-decoration 0.5s;
+    transition: color 0.5s;
+}
+
+h1:visited{
+    text-decoration:none;
+}
+
+.icon{
+    height:100px;
+    width:100px;
+    margin-right:1vw;
+}
+
+
+.content{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: row;
+    position:fixed;
+}
+.column{
+    display:flex;
+    width:25vw;
+    height:100vh;
+    overflow:hidden;
+    justify-content:center;
+    align-items:center;
+    transition: background-color 0.5s
+}
+.column:hover{
+
+    background-color:rgba(0, 0, 0, 0.25)
+}
+.column:hover h1{
+    color: white;
+    text-decoration:underline solid 4px rgb(194, 52, 52);
+}
