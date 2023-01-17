@@ -109,3 +109,34 @@ audio{
     grid-column-start:1;
     grid-column-end: 3;
 }
+
+@media screen and (max-width: 800px){
+    .program img{
+        height:15vw;
+        width:15vw;
+        margin-right:2vw;
+    }
+    .content{
+        width:80vw;
+        margin-left:5vw;
+        display:flex;
+        flex-direction: column;
+    }
+    .content p{
+        width:80vw;
+    }
+    .content img{
+        width:80vw;
+    }
+    .content img:hover{
+        width:80vw;
+    }
+    .content iframe{
+        width:80vw;
+
+    }
+    audio{
+        margin-left:25vw;
+        margin-top:3vh;    
+    }
+}

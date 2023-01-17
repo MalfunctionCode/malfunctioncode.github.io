@@ -56,3 +56,13 @@ h1:visited{
     color: white;
     text-decoration:underline solid 4px rgb(194, 52, 52);
 }
+
+@media screen and (max-width: 800px){
+    .content{
+        flex-direction: column;
+    }
+    .column{
+        width:100vw;
+        height:25vh;
+    }
+}
